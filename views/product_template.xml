@@ -6,7 +6,7 @@
             <field name="model_id" ref="model_product_template" />
             <field name="binding_model_id" ref="model_product_template" />
             <field name="state">code</field>
-            <field name="code">if record.some_condition(): record.load_products()</field>
+            <field name="code">record.load_products()</field>
         </record>
     </data>
 </odoo>
