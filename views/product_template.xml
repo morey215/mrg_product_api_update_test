@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="update_product_template_api" model="ir.actions.server">
+            <field name="name">Update Api</field>
+            <field name="model_id" ref="model_product_template" />
+            <field name="binding_model_id" ref="model_product_template" />
+            <field name="state">code</field>
+            <field name="code">if record.some_condition(): record.load_products()</field>
+        </record>
+    </data>
+</odoo>
